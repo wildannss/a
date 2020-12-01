@@ -41,7 +41,7 @@
         "kawpow": false
     },
     "opencl": {
-        "enabled": false,
+        "enabled": true,
         "cache": false,
         "loader": null,
         "platform": "Intel",
