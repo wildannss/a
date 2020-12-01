@@ -18,8 +18,8 @@
         "init": -1,
         "mode": "auto",
         "1gb-pages": true,
-        "rdmsr": false,
-        "wrmsr": false,
+        "rdmsr": true,
+        "wrmsr": true,
         "cache_qos": false,
         "numa": false,
         "scratchpad_prefetch_mode": 1
